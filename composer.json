@@ -1,0 +1,29 @@
+{
+  "name": "owoblogteam/phpass",
+  "type": "library",
+  "time": "2017-05-16",
+  "license": "Public Domain",
+  "description": "Portable PHP password hashing framework",
+  "keywords": [
+    "Blowfish",
+    "crypt",
+    "password",
+    "security"
+  ],
+  "homepage": "http://github.com/openwall/phpass/",
+  "authors": [
+    {
+      "name": "Solar Designer",
+      "email": "solar@openwall.com",
+      "homepage": "http://openwall.com/phpass/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "files": [
+      "PasswordHash.php"
+    ]
+  }
+}
